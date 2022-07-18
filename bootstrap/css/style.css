@@ -1,0 +1,49 @@
+.profile{
+    border: none;
+}
+
+
+
+
+<ul class="nav nav-tabs md-tabs nav-justified">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#account_panel_Profile" role="tab" aria-controls="account_panel_Profile">Profile</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#account_panel_Settings" role="tab" aria-controls="account_panel_Settings">Settings</a>
+    </li>
+</ul>
+
+<form method='POST' class="needs-validation" novalidate action='' enctype="multipart/form-data">
+       
+<div class="tab-content card">
+
+<!--Panel 1-->
+<div class="tab-pane fade in show active" id="account_panel_Profile" role="tabpanel">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="md-form">
+                <label for="email">Email</label>
+                <input id="email" name="contact_email" type="email" class="form-control" value="" required>
+                <div class="invalid-tooltip">
+                    Invalid email address
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="tab-pane fade" id="account_panel_Settings" role="tabpanel">
+        <div class="col-md-6">
+            <div class="md-form">
+                <label for="phone">Phone</label>
+                <input id="phone" required name="business_phone" type="text" class="form-control" value="">
+            </div>
+        </div>
+    </div>
+</div>
+  
+  <p>---- long form ---</p>
+  
+  <br><br><br> ... <br><br><br>  <br><br><br>  <br><br><br> ... <br><br><br>  <br><br><br>  <br><br><br> ... <br><br><br>  <br><br><br>  <br><br><br>
+          <input type=submit value="GO">
+  </form>
