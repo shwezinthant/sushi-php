@@ -3,7 +3,7 @@ require("header.php");
 
 ?>
 <div class="container-fluid">
-    <p class="display-3 text-danger text-center">Welcome to sushi bar</p>
+    <p class="display-3 text-danger text-center">Welcome to sushi Menu bar</p>
     <div class="row">
         <div class="col-md-7 shadow p-3 mb-5 bg-white rounded">
             <div class="row deskcard">
